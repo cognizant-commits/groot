@@ -69,6 +69,7 @@ public class AsciiCanvas {
         StringBuilder str = new StringBuilder();
         for(int i = 0; i < canvasStrings.size(); i++){
             str.append(canvasStrings.get(i).toString()).append("\n");
+            
 
         }
         return str.toString();
